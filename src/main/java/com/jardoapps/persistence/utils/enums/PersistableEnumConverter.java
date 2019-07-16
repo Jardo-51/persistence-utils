@@ -4,6 +4,9 @@ import java.lang.reflect.ParameterizedType;
 
 import javax.persistence.AttributeConverter;
 
+/**
+ * An attribute converted used to persist enum values in database.
+ */
 public class PersistableEnumConverter<E extends Enum<E> & PersistableEnum> implements AttributeConverter<E, String> {
 
 	private final Class<E> enumClass;
