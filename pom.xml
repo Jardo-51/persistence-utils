@@ -6,12 +6,31 @@
 	<artifactId>persistence-utils</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>A collection of handy utility classes for working with JPA</description>
+	<url>https://github.com/Jardo-51/persistence-utils</url>
+
+	<licenses>
+		<license>
+			<name>GNU LESSER GENERAL PUBLIC LICENSE</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Jaroslav Brtis</name>
+		</developer>
+	</developers>
+
 	<properties>
 		<maven.build.timestamp.format>yyyy-MM-dd_HH-mm</maven.build.timestamp.format>
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:file://${project.basedir}</developerConnection>
+		<connection>scm:git:git://github.com/Jardo-51/persistence-utils.git</connection>
+		<developerConnection>scm:git:ssh://github.com/Jardo-51/persistence-utils.git</developerConnection>
+		<url>https://github.com/Jardo-51/persistence-utils/tree/master</url>
 		<tag>HEAD</tag>
 	</scm>
 
