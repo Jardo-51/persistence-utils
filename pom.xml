@@ -28,7 +28,9 @@
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:file://${project.basedir}</developerConnection>
+		<connection>scm:git:git://github.com/Jardo-51/persistence-utils.git</connection>
+		<developerConnection>scm:git:ssh://github.com/Jardo-51/persistence-utils.git</developerConnection>
+		<url>https://github.com/Jardo-51/persistence-utils/tree/master</url>
 		<tag>HEAD</tag>
 	</scm>
 
