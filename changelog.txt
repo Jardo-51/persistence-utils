@@ -5,6 +5,7 @@
 1.1.0 - SNAPSHOT
       - Added class Defs.
       - Added class JsonAttributeConverter.
+      - Added TransactionService an TransactionServiceImpl.
 
 -----------------------------------------------------------------------------------------
 
