@@ -33,6 +33,36 @@ public class TransactionServiceImpl implements TransactionService {
 			runnable.run();
 		}
 
+		@Override
+		public void suspend() {
+			// do nothing
+		}
+
+		@Override
+		public void resume() {
+			// do nothing
+		}
+
+		@Override
+		public void flush() {
+			// do nothing
+		}
+
+		@Override
+		public void beforeCommit(boolean readOnly) {
+			// do nothing
+		}
+
+		@Override
+		public void beforeCompletion() {
+			// do nothing
+		}
+
+		@Override
+		public void afterCompletion(int status) {
+			// do nothing
+		}
+
 	}
 
 }
