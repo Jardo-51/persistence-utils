@@ -2,11 +2,11 @@ package com.jardoapps.persistence.utils.converters;
 
 import java.io.IOException;
 
-import javax.persistence.AttributeConverter;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jardoapps.persistence.utils.exceptions.AttributeConversionException;
+
+import jakarta.persistence.AttributeConverter;
 
 /**
  * This converter may be used to store collections (Lists, Maps) as JSON

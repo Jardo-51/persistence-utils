@@ -2,7 +2,7 @@ package com.jardoapps.persistence.utils.enums;
 
 import java.lang.reflect.ParameterizedType;
 
-import javax.persistence.AttributeConverter;
+import jakarta.persistence.AttributeConverter;
 
 /**
  * An attribute converted used to persist enum values in database.
