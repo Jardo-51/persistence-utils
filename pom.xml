@@ -4,7 +4,7 @@
 
 	<groupId>com.jardoapps</groupId>
 	<artifactId>persistence-utils</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<version>2.0.0</version>
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>A collection of handy utility classes for working with JPA</description>
@@ -33,7 +33,7 @@
 		<connection>scm:git:git://github.com/Jardo-51/persistence-utils.git</connection>
 		<developerConnection>scm:git:ssh://github.com/Jardo-51/persistence-utils.git</developerConnection>
 		<url>https://github.com/Jardo-51/persistence-utils/tree/master</url>
-		<tag>HEAD</tag>
+		<tag>2023-05-11_17-24_v2.0.0</tag>
 	</scm>
 
 	<dependencies>
