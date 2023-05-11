@@ -2,7 +2,14 @@
 
 -----------------------------------------------------------------------------------------
 
-1.1.0 - SNAPSHOT
+2.0.0 - 2023-05-11
+      - requires Java 17
+      - used namespace jakarta.* instead of javax.*
+      - updated to Spring 6
+
+-----------------------------------------------------------------------------------------
+
+1.1.0 - 2019-11-19
       - Added class Defs.
       - Added class JsonAttributeConverter.
       - Added TransactionService an TransactionServiceImpl.
